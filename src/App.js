@@ -13,6 +13,7 @@ import SignUp from './Components/Signup/SignUp';
 import Service from './Components/Service/Service';
 import Contact from './Components/Contact/Contact';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Blog from './Components/Blog/Blog';
 
 
 
@@ -56,6 +57,9 @@ function App() {
 
             <Route exact path="*">
               <NotFound></NotFound>
+            </Route>
+            <Route exact path="blog">
+              <Blog></Blog>
             </Route>
           </Switch>
           <Footer></Footer>

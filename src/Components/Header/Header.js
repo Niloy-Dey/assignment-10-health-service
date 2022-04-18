@@ -22,6 +22,7 @@ const Header = () => {
                         <Link className="nav-text ms-3" to='/services'>Services</Link>
                         <Link className="nav-text ms-3" to='/about'>About us</Link>
                         <Link className="nav-text ms-3" to='/contact'>Contact us</Link>
+                        <Link className="nav-text ms-3" to='/blog'>blog</Link>
 
 
                         {user?.email && <h6 className="text-white my-auto ms-2">{user.displayName}</h6>}
