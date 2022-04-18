@@ -1,0 +1,13 @@
+/* Style For Header Section */
+.nav-text{
+    color: #fff !important;
+    text-decoration: none;
+}
+.nav-text:hover{
+      color: #FFA63D !important;
+     
+}
+
+.brand-text{
+    text-decoration: none;
+}
